@@ -15,9 +15,6 @@ class Character:
     
     def gainHp(self, heal):
         self.__hp += heal
-    
-    def attack(self, player):
-        player.loseHp(10)
 
     def display(self):
         print(type(self).__name__  + " " + self.getName())
